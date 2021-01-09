@@ -1,0 +1,36 @@
+{
+  "name": "mercado-bitcoin-sdk",
+  "version": "1.0.0",
+  "description": "SDK para consumo da API de negociação do Mercado Bitcoin",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "start": "tsc && node lib/index.js",
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint",
+    "preversion": "npm run lint",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagoabreudev/mercado-bitcoin-sdk.git"
+  },
+  "keywords": ["cryptocurrence", "mercado bitcoin", "bitcoin"],
+  "author": "Thiago Abreu Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagoabreudev/mercado-bitcoin-sdk/issues"
+  },
+  "homepage": "https://github.com/thiagoabreudev/mercado-bitcoin-sdk#readme",
+  "devDependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^4.1.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
