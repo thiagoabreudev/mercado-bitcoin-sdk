@@ -1,6 +1,6 @@
 {
   "name": "mercado-bitcoin-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SDK para consumo da API de negociação do Mercado Bitcoin",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
