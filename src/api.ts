@@ -87,7 +87,7 @@ export default class Api {
     )
   }
 
-  async placeSellyOrder(coinPair: string, quantity: string, limitPrice: string) {
+  async placeSellOrder(coinPair: string, quantity: string, limitPrice: string) {
     return await this.makeRequest(
       {
         'tapi_method': 'place_sell_order',

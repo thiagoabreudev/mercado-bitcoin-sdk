@@ -16,5 +16,4 @@ export interface WithdrawCoinCryptos {
   quantity: string;
   txFee: string;
   destinationTag?: number;
-
 }
